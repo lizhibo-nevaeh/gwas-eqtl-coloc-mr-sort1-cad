@@ -1,0 +1,41 @@
+# Raw / third-party data
+/data/eqtl/
+/data/gwas/
+/data/ld_ref/
+/data/raw/
+
+# Large genetics formats
+*.besd
+*.epi
+*.esi
+*.pgen
+*.pvar
+*.psam
+*.bed
+*.bim
+*.fam
+*.vcf
+*.bcf
+*.gz
+*.zst
+*.zip
+
+# Generated intermediate results and logs
+/results/coloc/*_snps.tsv
+/results/generated/
+*.log
+*.clumps
+*.vcor
+*.snplist
+*.missing_id
+
+# Local tools/builds
+/tools/
+/build/
+
+# R/editor/system
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+Thumbs.db
